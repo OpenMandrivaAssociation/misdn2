@@ -3,7 +3,7 @@
 %define	epoch	2
 %define libname %mklibname %{name}
 %define snap    20090602
-%define release %mkrel %{snap}.2
+%define release %mkrel %{snap}.3
 
 %define build_qmisdnwatch 0
 %{?_without_qmisdnwatc:	%global build_qmisdnwatch 0}
@@ -48,6 +48,7 @@ Group:		Development/C
 Provides:	%{name}-devel = %{epoch}:%{version}-%{release}
 Provides:	lib%{name}-devel = %{epoch}:%{version}-%{release}
 Provides:	misdn-devel, libmisdn-devel, %{libname2}-devel
+Provides:	misdn2-devel, libmisdn2-devel
 Requires:	%{libname} = %{epoch}:%{version}-%{release}
 Epoch:		%{epoch}
 
