@@ -1,9 +1,9 @@
 %define name    misdn2
-%define version 1.5
+%define version 1.6
 %define	epoch	2
 %define libname %mklibname %{name}
-%define snap    20090602
-%define release %mkrel %{snap}.3
+%define snap    20090906
+%define release %mkrel %{snap}.1
 
 %define build_qmisdnwatch 0
 %{?_without_qmisdnwatc:	%global build_qmisdnwatch 0}
