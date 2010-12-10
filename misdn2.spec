@@ -3,7 +3,7 @@
 %define	epoch	2
 %define libname %mklibname %{name}
 %define snap    20090906
-%define release %mkrel %{snap}.1
+%define release %mkrel %{snap}.2
 
 %define build_qmisdnwatch 0
 %{?_without_qmisdnwatc:	%global build_qmisdnwatch 0}
