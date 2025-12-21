@@ -65,6 +65,7 @@ Summary:	Modular ISDN (mISDN) watch tool
 Group:		System/Configuration/Networking 
 Epoch:		1
 Requires:	qt4, misdn2 = 2:
+BuildRequires:	make
 BuildRequires:	qt4-devel
 
 %description -n	qmisdnwatch
